@@ -1,0 +1,17 @@
+{
+  "budget": 2,
+  "bad_sym_code": "E_BAD_SYM",
+  "empty_code": "E_EMPTY",
+  "no_sym_code": "E_NO_SYM",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "counts": [], "code": [], "builds": 0, "asks": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "count", "sym": "a" },
+    { "id": 2, "kind": "count", "sym": "b" },
+    { "id": 3, "kind": "count", "sym": "a" },
+    { "id": 4, "kind": "build" },
+    { "id": 5, "kind": "count", "sym": "c" },
+    { "id": 6, "kind": "build" },
+    { "id": 7, "kind": "ask", "sym": "b" }
+  ]
+}
